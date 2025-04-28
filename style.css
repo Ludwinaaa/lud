@@ -1,0 +1,42 @@
+body{
+    margin:0px;
+}
+header{
+    display:flex;
+    top:0;
+    width:100%;
+    background-color:#c8e4ee;
+    justify-content:space-between;
+    position: fixed;
+    z-index:1;
+    color:#f38a63;
+    padding:10px;
+}
+nav a{
+    padding:10px 25px;
+    text-decoration:none;
+    color:#f38a63;
+}
+
+section.home{
+    background:url("gb1.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height:600px;
+}
+section.about{
+    background-color: black;
+    height:600px;
+}
+section.product{
+    background:url("gb2.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    height:600px;
+}
+footer{
+    background-color:black;
+    height:50px;;
+}
